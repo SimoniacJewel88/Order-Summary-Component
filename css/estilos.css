@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.contenido {
+  width: 100vw;
+  background-color: #e0e8ff;
+}
+.contenido .tarjeta {
+  width: 340px;
+  margin: 0px auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.6rem;
+  overflow: hidden;
+}
+.contenido .tarjeta .tarjeta-imagen {
+  background-color: #74ecca;
+  display: flex;
+  flex-direction: column;
+}
+.contenido .tarjeta .tarjeta-imagen .img-principal {
+  width: 100%;
+}
+.contenido .tarjeta .tarjeta-info {
+  background-color: white;
+  padding: 1.6rem;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .titulo {
+  font-weight: 900;
+  text-align: center;
+  color: #1f2f56;
+  padding-top: 10px;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .descripcion {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.5rem;
+  color: #7280a7;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info {
+  display: flex;
+  background-color: #f5f7ff;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 48px;
+  height: 48px;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info .producto-check {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info .producto-check h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1f2f56;
+  line-height: 1.3rem;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info .producto-check h2 span {
+  font-weight: 500;
+  color: #7280a7;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info .producto-check a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .producto-info .producto-check a:active {
+  color: #756af1;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .btn-pago {
+  background-color: #3829e0;
+  color: white;
+  border-radius: 0.8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.8rem;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0px 10px 10px #e0e8ff;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .btn-pago:active {
+  background-color: #756af1;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .btn-cancel {
+  color: #7280a7;
+  font-size: 14px;
+  font-weight: 900;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.contenido .tarjeta .tarjeta-info .detalles-info .btn-cancel:active {
+  color: #1f2f56;
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #e0e8ff;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: -60%;
+  }
+
+  .contenido {
+    background-color: transparent;
+  }
+}
+.attribution {
+  margin-top: 1rem;
+  font-size: 12px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=estilos.css.map */
